@@ -1,0 +1,1 @@
+window.scrollTo(pageXOffset, 0);

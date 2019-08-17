@@ -1,0 +1,164 @@
+html, body, ul {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	font-size: 32px;
+	font-family: "Arial";
+}
+
+body {
+	background-color: #efeff4;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+
+
+h1 {
+	margin: 0px 0 15px 30px;
+	border-bottom: 1px solid #c8c7cc;
+	font-weight: 700;
+	color: #82c12b;
+	line-height: 85px;
+
+}
+
+.tarif {
+	background-color: #fff;
+	margin-bottom: 40px;
+	border-top: 1px solid #c8c7cc;
+	border-bottom: 1px solid #c8c7cc;
+	cursor: pointer;
+}
+
+
+.speed {
+	display: inline-block;	
+	padding: 15px 15px 15px 30px;
+	margin-bottom: 15px;
+	background-color: #000;
+	color: #fff;
+	font-weight: 700;
+}
+
+.tarif:nth-child(1) .speed {
+	background-color: #70603e;
+}
+
+.tarif:nth-child(2) .speed {
+	background-color: #0075d9;
+}
+
+.tarif:nth-child(3) .speed {
+	background-color: #e74807;
+}
+
+.tarif:nth-child(4) .speed {
+	background-color: #0075d9;
+}
+
+.tarif:nth-child(5) .speed {
+	background-color: #e74807;
+}
+
+.price {
+	padding: 5px 25px 15px 30px;
+	color: #4d575d;
+	font-weight: 700;
+}
+
+.free_options {
+	margin:0 0 20px 30px;
+	color: #4d575d;
+}
+
+.link {
+	color: #007aff;
+	display: block;
+	margin: 0 0 30px 30px;
+	padding-top: 20px;
+	border-top: 1px solid #c8c7cc;
+	text-decoration: none;
+}
+
+.pay_and_sale {
+	color: #4d575d;
+	padding-left: 30px;
+	padding-bottom: 20px;
+}
+
+.pay_and_sale span {
+	display: block;
+}
+
+.bar {
+	position: relative;
+	background-color: #f7f7f8;
+	width: 100%;
+	text-align: center;
+	line-height: 85px;
+	border-bottom: 1px solid #c8c7cc;
+	margin-bottom: 70px;
+	font-weight: 700;
+}
+
+.btn-back {
+	position: absolute;
+	top: 0;
+	left: 30px;
+	width: 85px;
+	height: 85px;
+	background: url(../img/back.gif) no-repeat;
+	background-position: 0 50%;
+	cursor: pointer;
+}
+
+.btn-forward {
+	background: url(../img/forward.gif) no-repeat;
+	background-position: 100% 50% ;
+	margin-right: 30px; 
+}
+
+.btn-ready {
+	box-sizing: border-box;
+	padding: 15px 30px;;
+}
+
+.btn-ready a {
+	text-align: center;
+	font-size: 80%;
+	line-height: 80px;
+	width: 100%;
+	background-color: #82c12b;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+}
+
+.pay {
+	padding: 0 0 0 30px;
+	font-size: 80%;
+	color: #4d575d;
+}
+
+.pay span {
+	display: block;
+}
+
+.date {
+	margin: 15px 0 0 30px;
+	padding-bottom: 20px;
+	font-size: 80%;
+	color: #aaa;
+	border-bottom: 1px solid #c8c7cc;
+}
+
+.date span {
+	display: block;
+}
+
+
