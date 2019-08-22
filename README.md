@@ -3,6 +3,10 @@
 
 Итог
 <a href="https://turbofergus.000webhostapp.com/">Live Demo</a>
+
+Моя личная переделка под VueJS
+<a href="https://github.com/Doomer94/skynetApp-on-VueJS/">GitHub</a>
+
 <hr>
 <h3>Тестовое задание</h3>
 <p>Задание состоит из трёх частей:</p>
